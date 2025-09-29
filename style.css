@@ -1,0 +1,111 @@
+body {
+    background-color: #fac2c2;
+    margin: 10px 10px 10px 10px;
+    padding: 50px;
+
+}
+
+.navigation-bar h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #a75e96;
+    font-size: xx-large;
+}
+
+
+.navigation-bar {
+    background-color: rgb(221, 181, 22);
+    display: flex;
+    padding: 0 30px;
+    color: #f30d70;
+    top: 0; 
+    justify-content:space-between; 
+    width: fit-content;
+    align-items:center;
+    border-radius: 10px;
+    position: fixed;
+    font-size: x-large;
+    width: 90%;
+}
+
+header{
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    list-style: none;
+    padding:10px 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px 0px 10px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.navigation-menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    position:sticky;
+    justify-content: center;
+}
+Pauleen Joyce
+.map-container {
+    margin: 1rem 0;
+}
+
+aside {
+    flex: 0 0 20%;
+    padding: 10px;
+}
+
+.my-info {
+    background-color: #ebb7b7;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my-info img {
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #d8cdfa;
+    border: 1px solid #d8f9a7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+aside {
+    position: fixed;
+    top: 200px;
+    right: 0;
+    float: right;
+    width: 20%;
+    padding: 20px;
+    background-color: #ebfaa8;
+}
+
+aside img {
+    aspect-ratio: 3/4;
+}
+
+footer {
+    clear: both;
+    background-color: #333;
+    color: #f57373;
+    text-align: center;
+    padding: 10px;
+}
